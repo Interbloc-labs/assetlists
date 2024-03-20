@@ -1,0 +1,1002 @@
+{
+    "name": "Pools list on mainnet",
+    "logoURI": "/logos/logo.svg",
+    "keywords": [
+      "special tokens"
+    ],
+    "tags": {
+      "ProjectName": {
+        "name": "White Whale",
+        "description": "Tokens that are listed on Project"
+      }
+    },
+    "timestamp": "2021-06-12T00:00:00+00:00",
+    "base_token": {
+      "id": "white-whale",
+      "chain_id": "migaloo-1",
+      "token_address": "uwhale",
+      "symbol": "WHALE",
+      "name": "Whale",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/White-Whale-Defi-Platform/white-whale-frontend/main/public/logos/migaloo.png",
+      "tags": [
+        "native"
+      ],
+      "native": true,
+      "denom": "uwhale"
+    },
+    "routerAddress": "migaloo1tma28exp38q92c69r8uujhphxy95xa4awq2cudqqg3nhzkhnrg5s4r60en",
+    "pools": [
+      {
+        "pool_id": "WHALE-USDC",
+        "lpOrder": [
+          "WHALE",
+          "USDC"
+        ],
+        "assetOrder": [
+          "WHALE",
+          "USDC"
+        ],
+        "displayName": "WHALE-USDC",
+        "displayLogo1": "https://raw.githubusercontent.com/White-Whale-Defi-Platform/white-whale-frontend/main/public/logos/whale.svg",
+        "displayLogo2": "https://raw.githubusercontent.com/White-Whale-Defi-Platform/white-whale-frontend/main/public/logos/axlUSDC.png",
+        "pool_assets": [
+          {
+            "id": "white-whale",
+            "chain_id": "phoenix-1",
+            "token_address": "uwhale",
+            "symbol": "WHALE",
+            "name": "Whale",
+            "decimals": 6,
+            "logoURI": "https://raw.githubusercontent.com/White-Whale-Defi-Platform/white-whale-frontend/main/public/logos/whale.svg",
+            "tags": [
+              "native"
+            ],
+            "native": true,
+            "denom": "uwhale"
+          },
+          {
+            "id": "usd-coin",
+            "chain_id": "phoenix-1",
+            "token_address": "ibc/BC5C0BAFD19A5E4133FDA0F3E04AE1FBEE75A4A226554B2CBB021089FF2E1F8A",
+            "symbol": "USDC",
+            "name": "USDC",
+            "decimals": 6,
+            "logoURI": "https://raw.githubusercontent.com/White-Whale-Defi-Platform/white-whale-frontend/main/public/logos/axlUSDC.png",
+            "tags": [
+              "native"
+            ],
+            "native": true,
+            "denom": "ibc/BC5C0BAFD19A5E4133FDA0F3E04AE1FBEE75A4A226554B2CBB021089FF2E1F8A"
+          }
+        ],
+        "lp_token": "factory/migaloo1xv4ql6t6r8zawlqn2tyxqsrvjpmjfm6kvdfvytaueqe3qvcwyr7shtx0hj/uLP",
+        "swap_address": "migaloo1xv4ql6t6r8zawlqn2tyxqsrvjpmjfm6kvdfvytaueqe3qvcwyr7shtx0hj",
+        "staking_address": "migaloo18t2kn6j5l0dw3lfsnllclum9j9ktr63mrlpqjlkeugj8msj9xasqks7m5p",
+        "rewards_tokens": []
+      },
+      {
+        "pool_id": "bWHALE-WHALE",
+        "lpOrder": [
+          "bWHALE",
+          "WHALE"
+        ],
+        "assetOrder": [
+          "bWHALE",
+          "WHALE"
+        ],
+        "displayName": "bWHALE-WHALE",
+        "displayLogo1": "https://raw.githubusercontent.com/White-Whale-Defi-Platform/white-whale-frontend/main/public/logos/bWHALE.png",
+        "displayLogo2": "https://raw.githubusercontent.com/White-Whale-Defi-Platform/white-whale-frontend/main/public/logos/whale.svg",
+        "pool_assets": [
+          {
+            "chain_id": "migaloo-1",
+            "token_address": "factory/migaloo1mf6ptkssddfmxvhdx0ech0k03ktp6kf9yk59renau2gvht3nq2gqdhts4u/boneWhale",
+            "symbol": "bWHALE",
+            "name": "bWhale",
+            "decimals": 6,
+            "logoURI": "https://raw.githubusercontent.com/White-Whale-Defi-Platform/white-whale-frontend/main/public/logos/bWHALE.png",
+            "tags": [
+              "native"
+            ],
+            "native": true,
+            "denom": "factory/migaloo1mf6ptkssddfmxvhdx0ech0k03ktp6kf9yk59renau2gvht3nq2gqdhts4u/boneWhale"
+          },
+          {
+            "id": "white-whale",
+            "chain_id": "migaloo-1",
+            "token_address": "uwhale",
+            "symbol": "WHALE",
+            "name": "Whale",
+            "decimals": 6,
+            "logoURI": "https://raw.githubusercontent.com/White-Whale-Defi-Platform/white-whale-frontend/main/public/logos/whale.svg",
+            "tags": [
+              "native"
+            ],
+            "native": true,
+            "denom": "uwhale"
+          }
+        ],
+        "swap_address": "migaloo1dg5jrt89nddtymjx5pzrvdvdt0m4zl3l2l3ytunl6a0kqd7k8hss594wy6",
+        "lp_token": "factory/migaloo1dg5jrt89nddtymjx5pzrvdvdt0m4zl3l2l3ytunl6a0kqd7k8hss594wy6/uLP",
+        "staking_address": "migaloo1ns355ukd2aww4wrpwxp9cdkmx6rsc4gkwea58ng92pfwkrtpltlssyeghn",
+        "rewards_tokens": []
+      },
+      {
+        "pool_id": "ampWHALE-WHALE",
+        "lpOrder": [
+          "ampWHALE",
+          "WHALE"
+        ],
+        "assetOrder": [
+          "ampWHALE",
+          "WHALE"
+        ],
+        "displayName": "ampWHALE-WHALE",
+        "displayLogo1": "https://raw.githubusercontent.com/White-Whale-Defi-Platform/white-whale-frontend/main/public/logos/ampWhale.svg",
+        "displayLogo2": "https://raw.githubusercontent.com/White-Whale-Defi-Platform/white-whale-frontend/main/public/logos/whale.svg",
+        "pool_assets": [
+          {
+            "chain_id": "migaloo-1",
+            "token_address": "factory/migaloo1436kxs0w2es6xlqpp9rd35e3d0cjnw4sv8j3a7483sgks29jqwgshqdky4/ampWHALE",
+            "symbol": "ampWHALE",
+            "name": "ampWhale",
+            "decimals": 6,
+            "logoURI": "https://raw.githubusercontent.com/White-Whale-Defi-Platform/white-whale-frontend/main/public/logos/ampWhale.svg",
+            "tags": [
+              "native"
+            ],
+            "native": true,
+            "denom": "factory/migaloo1436kxs0w2es6xlqpp9rd35e3d0cjnw4sv8j3a7483sgks29jqwgshqdky4/ampWHALE"
+          },
+          {
+            "id": "white-whale",
+            "chain_id": "migaloo-1",
+            "token_address": "uwhale",
+            "symbol": "WHALE",
+            "name": "Whale",
+            "decimals": 6,
+            "logoURI": "https://raw.githubusercontent.com/White-Whale-Defi-Platform/white-whale-frontend/main/public/logos/whale.svg",
+            "tags": [
+              "native"
+            ],
+            "native": true,
+            "denom": "uwhale"
+          }
+        ],
+        "swap_address": "migaloo1ull9s4el2pmkdevdgrjt6pwa4e5xhkda40w84kghftnlxg4h3knqpm5u3n",
+        "lp_token": "factory/migaloo1ull9s4el2pmkdevdgrjt6pwa4e5xhkda40w84kghftnlxg4h3knqpm5u3n/uLP",
+        "staking_address": "migaloo1qkuqpqx98zwp8pvh3a2tl536l7cmhcw2qlp0fj35tz9pt80864zsvff3l7",
+        "rewards_tokens": []
+      },
+      {
+        "pool_id": "RAC-WHALE",
+        "lpOrder": [
+          "RAC",
+          "WHALE"
+        ],
+        "assetOrder": [
+          "RAC",
+          "WHALE"
+        ],
+        "displayName": "RAC-WHALE",
+        "displayLogo1": "https://raw.githubusercontent.com/White-Whale-Defi-Platform/white-whale-frontend/main/public/logos/rac.png",
+        "displayLogo2": "https://raw.githubusercontent.com/White-Whale-Defi-Platform/white-whale-frontend/main/public/logos/whale.svg",
+        "pool_assets": [
+          {
+            "chain_id": "migaloo-1",
+            "token_address": "factory/migaloo1eqntnl6tzcj9h86psg4y4h6hh05g2h9nj8e09l/urac",
+            "symbol": "RAC",
+            "name": "RAC",
+            "decimals": 6,
+            "logoURI": "https://raw.githubusercontent.com/White-Whale-Defi-Platform/white-whale-frontend/main/public/logos/rac.png",
+            "tags": [
+              "native"
+            ],
+            "native": true,
+            "denom": "factory/migaloo1eqntnl6tzcj9h86psg4y4h6hh05g2h9nj8e09l/urac"
+          },
+          {
+            "id": "white-whale",
+            "chain_id": "migaloo-1",
+            "token_address": "uwhale",
+            "symbol": "WHALE",
+            "name": "Whale",
+            "decimals": 6,
+            "logoURI": "https://raw.githubusercontent.com/White-Whale-Defi-Platform/white-whale-frontend/main/public/logos/whale.svg",
+            "tags": [
+              "native"
+            ],
+            "native": true,
+            "denom": "uwhale"
+          }
+        ],
+        "swap_address": "migaloo1crsvm4qddplxhag29nd2zyw6k6jzh06hlcctya4ynfvuhhu3yt4q0pn4t3",
+        "lp_token": "factory/migaloo1crsvm4qddplxhag29nd2zyw6k6jzh06hlcctya4ynfvuhhu3yt4q0pn4t3/uLP",
+        "staking_address": "migaloo1twdet2vswqnf8tpg3wh269s686xejpad3hrtdc8l43yuvs8whfps8tttne",
+        "rewards_tokens": []
+      },
+      {
+        "pool_id": "WHALE-wBTC",
+        "lpOrder": [
+          "WHALE",
+          "wBTC"
+        ],
+        "assetOrder": [
+          "WHALE",
+          "wBTC"
+        ],
+        "displayName": "WHALE-wBTC",
+        "displayLogo1": "https://raw.githubusercontent.com/White-Whale-Defi-Platform/white-whale-frontend/main/public/logos/whale.svg",
+        "displayLogo2": "https://raw.githubusercontent.com/White-Whale-Defi-Platform/white-whale-frontend/main/public/logos/wbtc.svg",
+        "pool_assets": [
+          {
+            "id": "white-whale",
+            "chain_id": "migaloo-1",
+            "token_address": "uwhale",
+            "symbol": "WHALE",
+            "name": "WHALE",
+            "decimals": 6,
+            "logoURI": "https://raw.githubusercontent.com/White-Whale-Defi-Platform/white-whale-frontend/main/public/logos/whale.svg",
+            "tags": [
+              "native"
+            ],
+            "native": true,
+            "denom": "uwhale"
+          },
+          {
+            "id": "wrapped-bitcoin",
+            "chain_id": "migaloo-1",
+            "token_address": "ibc/6E5BF71FE1BEBBD648C8A7CB7A790AEF0081120B2E5746E6563FC95764716D61",
+            "symbol": "wBTC",
+            "name": "wBTC",
+            "decimals": 8,
+            "logoURI": "https://raw.githubusercontent.com/White-Whale-Defi-Platform/white-whale-frontend/main/public/logos/wbtc.svg",
+            "tags": [
+              "native"
+            ],
+            "native": true,
+            "denom": "ibc/6E5BF71FE1BEBBD648C8A7CB7A790AEF0081120B2E5746E6563FC95764716D61"
+          }
+        ],
+        "lp_token": "factory/migaloo1axtz4y7jyvdkkrflknv9dcut94xr5k8m6wete4rdrw4fuptk896su44x2z/uLP",
+        "swap_address": "migaloo1axtz4y7jyvdkkrflknv9dcut94xr5k8m6wete4rdrw4fuptk896su44x2z",
+        "staking_address": "",
+        "rewards_tokens": []
+      },
+      {
+        "pool_id": "ASH-WHALE",
+        "lpOrder": [
+          "ASH",
+          "WHALE"
+        ],
+        "assetOrder": [
+          "ASH",
+          "WHALE"
+        ],
+        "displayName": "ASH-WHALE",
+        "displayLogo1": "https://raw.githubusercontent.com/White-Whale-Defi-Platform/white-whale-frontend/main/public/logos/ash.svg",
+        "displayLogo2": "https://raw.githubusercontent.com/White-Whale-Defi-Platform/white-whale-frontend/main/public/logos/whale.svg",
+        "pool_assets": [
+          {
+            "chain_id": "migaloo-1",
+            "token_address": "factory/migaloo1erul6xyq0gk6ws98ncj7lnq9l4jn4gnnu9we73gdz78yyl2lr7qqrvcgup/ash",
+            "symbol": "ASH",
+            "name": "ASH",
+            "decimals": 6,
+            "logoURI": "https://raw.githubusercontent.com/White-Whale-Defi-Platform/white-whale-frontend/main/public/logos/ash.svg",
+            "tags": [
+              "native"
+            ],
+            "native": true,
+            "denom": "factory/migaloo1erul6xyq0gk6ws98ncj7lnq9l4jn4gnnu9we73gdz78yyl2lr7qqrvcgup/ash"
+          },
+          {
+            "id": "white-whale",
+            "chain_id": "migaloo-1",
+            "token_address": "uwhale",
+            "symbol": "WHALE",
+            "name": "Whale",
+            "decimals": 6,
+            "logoURI": "https://raw.githubusercontent.com/White-Whale-Defi-Platform/white-whale-frontend/main/public/logos/whale.svg",
+            "tags": [
+              "native"
+            ],
+            "native": true,
+            "denom": "uwhale"
+          }
+        ],
+        "swap_address": "migaloo1u4npx7xvprwanpru7utv8haq99rtfmdzzw6p3hpfc38n7zmzm42q8ydga3",
+        "lp_token": "factory/migaloo1u4npx7xvprwanpru7utv8haq99rtfmdzzw6p3hpfc38n7zmzm42q8ydga3/uLP",
+        "staking_address": "migaloo180qwhupk30f68ygp7lz4vwcppsfkjr9n4ytsz03c04fsku0hrccspalpxt",
+        "rewards_tokens": []
+      },
+      {
+        "pool_id": "GUPPY-ASH",
+        "lpOrder": [
+          "GUPPY",
+          "ASH"
+        ],
+        "assetOrder": [
+          "GUPPY",
+          "ASH"
+        ],
+        "displayName": "GUPPY-ASH",
+        "displayLogo2": "https://raw.githubusercontent.com/White-Whale-Defi-Platform/white-whale-frontend/main/public/logos/ash.svg",
+        "displayLogo1": "https://raw.githubusercontent.com/White-Whale-Defi-Platform/white-whale-frontend/main/public/logos/guppy.png",
+        "pool_assets": [
+          {
+            "chain_id": "migaloo-1",
+            "token_address": "factory/migaloo1etlu2h30tjvv8rfa4fwdc43c92f6ul5w9acxzk/uguppy",
+            "symbol": "GUPPY",
+            "name": "Guppy",
+            "decimals": 6,
+            "logoURI": "https://raw.githubusercontent.com/White-Whale-Defi-Platform/white-whale-frontend/main/public/logos/guppy.png",
+            "tags": [
+              "native"
+            ],
+            "native": true,
+            "denom": "factory/migaloo1etlu2h30tjvv8rfa4fwdc43c92f6ul5w9acxzk/uguppy"
+          },
+          {
+            "chain_id": "migaloo-1",
+            "token_address": "factory/migaloo1erul6xyq0gk6ws98ncj7lnq9l4jn4gnnu9we73gdz78yyl2lr7qqrvcgup/ash",
+            "symbol": "ASH",
+            "name": "Ash",
+            "decimals": 6,
+            "logoURI": "https://raw.githubusercontent.com/White-Whale-Defi-Platform/white-whale-frontend/main/public/logos/ash.svg",
+            "tags": [
+              "native"
+            ],
+            "native": true,
+            "denom": "factory/migaloo1erul6xyq0gk6ws98ncj7lnq9l4jn4gnnu9we73gdz78yyl2lr7qqrvcgup/ash"
+          }
+        ],
+        "swap_address": "migaloo16yra8pf3ntm6ljjnja2w046zka3wm68fvd3x08htfdpn2mumqwkst7mllv",
+        "lp_token": "factory/migaloo16yra8pf3ntm6ljjnja2w046zka3wm68fvd3x08htfdpn2mumqwkst7mllv/uLP",
+        "staking_address": "migaloo1mh36nwy4et6fvku9e73m87g9dnhr7z3xge67d9g8f2yl7cn6lpuqyf3cnc",
+        "rewards_tokens": []
+      },
+      {
+        "pool_id": "ampWHALE-arbWHALE",
+        "lpOrder": [
+          "ampWHALE",
+          "arbWHALE"
+        ],
+        "assetOrder": [
+          "ampWHALE",
+          "arbWHALE"
+        ],
+        "displayName": "ampWHALE-arbWHALE",
+        "displayLogo1": "https://raw.githubusercontent.com/White-Whale-Defi-Platform/white-whale-frontend/main/public/logos/ampWhale.svg",
+        "displayLogo2": "https://raw.githubusercontent.com/White-Whale-Defi-Platform/white-whale-frontend/main/public/logos/whale.svg",
+        "pool_assets": [
+          {
+            "chain_id": "migaloo-1",
+            "token_address": "factory/migaloo1436kxs0w2es6xlqpp9rd35e3d0cjnw4sv8j3a7483sgks29jqwgshqdky4/ampWHALE",
+            "symbol": "ampWHALE",
+            "name": "ampWhale",
+            "decimals": 6,
+            "logoURI": "https://raw.githubusercontent.com/White-Whale-Defi-Platform/white-whale-frontend/main/public/logos/ampWhale.svg",
+            "tags": [
+              "native"
+            ],
+            "native": true,
+            "denom": "factory/migaloo1436kxs0w2es6xlqpp9rd35e3d0cjnw4sv8j3a7483sgks29jqwgshqdky4/ampWHALE"
+          },
+          {
+            "chain_id": "migaloo-1",
+            "token_address": "factory/migaloo1ey4sn2mkmhew4pdrzk90l9acluvas25qlhuvsfgssw42ugz8yjlqx92j9l/arbWHALE",
+            "symbol": "arbWHALE",
+            "name": "arbWHALE",
+            "decimals": 6,
+            "logoURI": "https://raw.githubusercontent.com/White-Whale-Defi-Platform/white-whale-frontend/main/public/logos/whale.svg",
+            "tags": [
+              "native"
+            ],
+            "native": true,
+            "denom": "factory/migaloo1ey4sn2mkmhew4pdrzk90l9acluvas25qlhuvsfgssw42ugz8yjlqx92j9l/arbWHALE"
+          }
+        ],
+        "swap_address": "migaloo12z46dq46hprpyv8j4k7xtqk8gdx7leqzgan2pjpdaktx4ukj53lqar6tsf",
+        "lp_token": "factory/migaloo12z46dq46hprpyv8j4k7xtqk8gdx7leqzgan2pjpdaktx4ukj53lqar6tsf/uLP",
+        "staking_address": "",
+        "rewards_tokens": []
+      },
+      {
+        "pool_id": "ampMNTA-WHALE",
+        "lpOrder": [
+          "ampMNTA",
+          "WHALE"
+        ],
+        "assetOrder": [
+          "ampMNTA",
+          "WHALE"
+        ],
+        "displayName": "ampMNTA-WHALE",
+        "displayLogo2": "https://raw.githubusercontent.com/White-Whale-Defi-Platform/white-whale-frontend/main/public/logos/whale.svg",
+        "displayLogo1": "https://raw.githubusercontent.com/White-Whale-Defi-Platform/white-whale-frontend/main/public/logos/ampmnta.png",
+        "pool_assets": [
+          {
+            "chain_id": "migaloo-1",
+            "token_address": "ibc/0102CC6E28D29F57444C645C86AE2F4E8789C3A85445A3B185E51F0A23862E87",
+            "symbol": "ampMNTA",
+            "name": "ampMNTA",
+            "decimals": 6,
+            "logoURI": "https://raw.githubusercontent.com/White-Whale-Defi-Platform/white-whale-frontend/main/public/logos/ampmnta.png",
+            "tags": [
+              "native"
+            ],
+            "native": true,
+            "denom": "ibc/0102CC6E28D29F57444C645C86AE2F4E8789C3A85445A3B185E51F0A23862E87"
+          },
+          {
+            "id": "white-whale",
+            "chain_id": "migaloo-1",
+            "token_address": "uwhale",
+            "symbol": "WHALE",
+            "name": "Whale",
+            "decimals": 6,
+            "logoURI": "https://raw.githubusercontent.com/White-Whale-Defi-Platform/white-whale-frontend/main/public/logos/whale.svg",
+            "tags": [
+              "native"
+            ],
+            "native": true,
+            "denom": "uwhale"
+          }
+        ],
+        "swap_address": "migaloo1wxnc6vd83pxudrfjf0ql8v73x3xute65fefxm7x5qxsehy5g0pzskclu2r",
+        "lp_token": "factory/migaloo1wxnc6vd83pxudrfjf0ql8v73x3xute65fefxm7x5qxsehy5g0pzskclu2r/uLP",
+        "staking_address": "migaloo1nplqhfd64jru7cj5ng2f3kh9g70gr3l3yut7wsu85z4q599hag5s0enjy8",
+        "rewards_tokens": []
+      },
+      {
+        "pool_id": "SAYVE-WHALE",
+        "lpOrder": [
+          "SAYVE",
+          "WHALE"
+        ],
+        "assetOrder": [
+          "SAYVE",
+          "WHALE"
+        ],
+        "displayName": "SAYVE-WHALE",
+        "displayLogo2": "https://raw.githubusercontent.com/White-Whale-Defi-Platform/white-whale-frontend/main/public/logos/whale.svg",
+        "displayLogo1": "https://raw.githubusercontent.com/White-Whale-Defi-Platform/white-whale-frontend/main/public/logos/sayve.svg",
+        "pool_assets": [
+          {
+            "chain_id": "migaloo-1",
+            "token_address": "ibc/106B438A78C581C5291E114B21588C41F98532E04D5369CFEE5825D95D465278",
+            "symbol": "SAYVE",
+            "name": "Sayve",
+            "decimals": 6,
+            "logoURI": "https://raw.githubusercontent.com/White-Whale-Defi-Platform/white-whale-frontend/main/public/logos/sayve.svg",
+            "tags": [
+              "native"
+            ],
+            "native": true,
+            "denom": "ibc/106B438A78C581C5291E114B21588C41F98532E04D5369CFEE5825D95D465278"
+          },
+          {
+            "id": "white-whale",
+            "chain_id": "migaloo-1",
+            "token_address": "uwhale",
+            "symbol": "WHALE",
+            "name": "Whale",
+            "decimals": 6,
+            "logoURI": "https://raw.githubusercontent.com/White-Whale-Defi-Platform/white-whale-frontend/main/public/logos/whale.svg",
+            "tags": [
+              "native"
+            ],
+            "native": true,
+            "denom": "uwhale"
+          }
+        ],
+        "swap_address": "migaloo1ke0krjh5v3emzv5wdut6q7l0gednv7cx7naxqweae44jz8cxxq9srhy6dz",
+        "lp_token": "factory/migaloo1ke0krjh5v3emzv5wdut6q7l0gednv7cx7naxqweae44jz8cxxq9srhy6dz/uLP",
+        "staking_address": "",
+        "rewards_tokens": []
+      },
+      {
+        "pool_id": "OPHIR-WHALE",
+        "lpOrder": [
+          "OPHIR",
+          "WHALE"
+        ],
+        "assetOrder": [
+          "OPHIR",
+          "WHALE"
+        ],
+        "displayName": "OPHIR-WHALE",
+        "displayLogo1": "https://raw.githubusercontent.com/White-Whale-Defi-Platform/white-whale-frontend/main/public/logos/ophir.png",
+        "displayLogo2": "https://raw.githubusercontent.com/White-Whale-Defi-Platform/white-whale-frontend/main/public/logos/whale.svg",
+        "pool_assets": [
+          {
+            "chain_id": "migaloo-1",
+            "token_address": "factory/migaloo1t862qdu9mj5hr3j727247acypym3ej47axu22rrapm4tqlcpuseqltxwq5/ophir",
+            "symbol": "OPHIR",
+            "name": "OPHIR",
+            "decimals": 6,
+            "logoURI": "https://raw.githubusercontent.com/White-Whale-Defi-Platform/white-whale-frontend/main/public/logos/ophir.png",
+            "tags": [
+              "native"
+            ],
+            "native": true,
+            "denom": "factory/migaloo1t862qdu9mj5hr3j727247acypym3ej47axu22rrapm4tqlcpuseqltxwq5/ophir"
+          },
+          {
+            "id": "white-whale",
+            "chain_id": "migaloo-1",
+            "token_address": "uwhale",
+            "symbol": "WHALE",
+            "name": "Whale",
+            "decimals": 6,
+            "logoURI": "https://raw.githubusercontent.com/White-Whale-Defi-Platform/white-whale-frontend/main/public/logos/whale.svg",
+            "tags": [
+              "native"
+            ],
+            "native": true,
+            "denom": "uwhale"
+          }
+        ],
+        "swap_address": "migaloo1p5adwk3nl9pfmjjx6fu9mzn4xfjry4l2x086yq8u8sahfv6cmuyspryvyu",
+        "lp_token": "factory/migaloo1p5adwk3nl9pfmjjx6fu9mzn4xfjry4l2x086yq8u8sahfv6cmuyspryvyu/uLP",
+        "staking_address": "migaloo1gjuv6570dupd7l5t6tz6m45jhnjv0x73qh7d629a4d4aze2lktjs85aj8y",
+        "rewards_tokens": []
+      },
+      {
+        "pool_id": "PLNK-WHALE",
+        "lpOrder": [
+          "PLNK",
+          "WHALE"
+        ],
+        "assetOrder": [
+          "PLNK",
+          "WHALE"
+        ],
+        "displayName": "PLNK-WHALE",
+        "displayLogo1": "https://raw.githubusercontent.com/White-Whale-Defi-Platform/white-whale-frontend/main/public/logos/plnk.png",
+        "displayLogo2": "https://raw.githubusercontent.com/White-Whale-Defi-Platform/white-whale-frontend/main/public/logos/whale.svg",
+        "pool_assets": [
+          {
+            "chain_id": "migaloo-1",
+            "token_address": "ibc/E49A6D116739E0920F8F2D68A8F0A8E07DC272FA1421F70CAD738463AA296724",
+            "symbol": "PLNK",
+            "name": "PLNK",
+            "decimals": 6,
+            "logoURI": "https://raw.githubusercontent.com/White-Whale-Defi-Platform/white-whale-frontend/main/public/logos/plnk.png",
+            "tags": [
+              "native"
+            ],
+            "native": true,
+            "denom": "ibc/E49A6D116739E0920F8F2D68A8F0A8E07DC272FA1421F70CAD738463AA296724"
+          },
+          {
+            "id": "white-whale",
+            "chain_id": "migaloo-1",
+            "token_address": "uwhale",
+            "symbol": "WHALE",
+            "name": "Whale",
+            "decimals": 6,
+            "logoURI": "https://raw.githubusercontent.com/White-Whale-Defi-Platform/white-whale-frontend/main/public/logos/whale.svg",
+            "tags": [
+              "native"
+            ],
+            "native": true,
+            "denom": "uwhale"
+          }
+        ],
+        "swap_address": "migaloo195rkvthzyndrguzxhulca4wmgten7aja49vvj4pq9wfm7azd3ahq84r3d2",
+        "lp_token": "factory/migaloo195rkvthzyndrguzxhulca4wmgten7aja49vvj4pq9wfm7azd3ahq84r3d2/uLP",
+        "staking_address": "migaloo1sf6nld2a56urwvxf8aj4964c5v3awt0hxjnz88dx9f9r4c2cjtxqr3842d",
+        "rewards_tokens": []
+      },
+      {
+        "pool_id": "GUPPY-WHALE",
+        "lpOrder": [
+          "GUPPY",
+          "WHALE"
+        ],
+        "assetOrder": [
+          "GUPPY",
+          "WHALE"
+        ],
+        "displayName": "GUPPY-WHALE",
+        "displayLogo1": "https://raw.githubusercontent.com/White-Whale-Defi-Platform/white-whale-frontend/main/public/logos/guppy.png",
+        "displayLogo2": "https://raw.githubusercontent.com/White-Whale-Defi-Platform/white-whale-frontend/main/public/logos/whale.svg",
+        "pool_assets": [
+          {
+            "chain_id": "migaloo-1",
+            "token_address": "factory/migaloo1etlu2h30tjvv8rfa4fwdc43c92f6ul5w9acxzk/uguppy",
+            "symbol": "GUPPY",
+            "name": "Guppy",
+            "decimals": 6,
+            "logoURI": "https://raw.githubusercontent.com/White-Whale-Defi-Platform/white-whale-frontend/main/public/logos/guppy.png",
+            "tags": [
+              "native"
+            ],
+            "native": true,
+            "denom": "factory/migaloo1etlu2h30tjvv8rfa4fwdc43c92f6ul5w9acxzk/uguppy"
+          },
+          {
+            "id": "white-whale",
+            "chain_id": "migaloo-1",
+            "token_address": "uwhale",
+            "symbol": "WHALE",
+            "name": "Whale",
+            "decimals": 6,
+            "logoURI": "https://raw.githubusercontent.com/White-Whale-Defi-Platform/white-whale-frontend/main/public/logos/whale.svg",
+            "tags": [
+              "native"
+            ],
+            "native": true,
+            "denom": "uwhale"
+          }
+        ],
+        "swap_address": "migaloo14p3r422qp04p345mnqe5umjy3vqx75hpxf54f8enf59wf27fksvqltavjp",
+        "lp_token": "factory/migaloo14p3r422qp04p345mnqe5umjy3vqx75hpxf54f8enf59wf27fksvqltavjp/uLP",
+        "staking_address": "migaloo1ur4j7x270ascx74k5j65r6zd2dyq0y407jdewk2nse9gpzg9mrds5czrtn",
+        "rewards_tokens": []
+      },
+      {
+        "pool_id": "WHALE-wBTC.axl",
+        "lpOrder": [
+          "WHALE",
+          "wBTC.axl"
+        ],
+        "assetOrder": [
+          "WHALE",
+          "wBTC.axl"
+        ],
+        "displayName": "WHALE-wBTC.axl",
+        "displayLogo1": "https://raw.githubusercontent.com/White-Whale-Defi-Platform/white-whale-frontend/main/public/logos/whale.svg",
+        "displayLogo2": "https://raw.githubusercontent.com/White-Whale-Defi-Platform/white-whale-frontend/main/public/logos/wbtc.axl.svg",
+        "pool_assets": [
+          {
+            "id": "white-whale",
+            "chain_id": "migaloo-1",
+            "token_address": "uwhale",
+            "symbol": "WHALE",
+            "name": "Whale",
+            "decimals": 6,
+            "logoURI": "https://raw.githubusercontent.com/White-Whale-Defi-Platform/white-whale-frontend/main/public/logos/whale.svg",
+            "tags": [
+              "native"
+            ],
+            "native": true,
+            "denom": "uwhale"
+          },
+          {
+            "id": "wrapped-bitcoin",
+            "chain_id": "migaloo-1",
+            "token_address": "ibc/B65E189D3168DB40C88C6A6C92CA3D3BB0A8B6310325D4C43AB5702F06ECD60B",
+            "symbol": "wBTC.axl",
+            "name": "wBTC.axl",
+            "decimals": 8,
+            "logoURI": "https://raw.githubusercontent.com/White-Whale-Defi-Platform/white-whale-frontend/main/public/logos/wbtc.axl.svg",
+            "tags": [
+              "native"
+            ],
+            "native": true,
+            "denom": "ibc/B65E189D3168DB40C88C6A6C92CA3D3BB0A8B6310325D4C43AB5702F06ECD60B"
+          }
+        ],
+        "lp_token": "factory/migaloo1j2dtdu2kjf7l555fkej9cv5cmp79c6g5q8p67gt3yhvm2auzclvsq429y3/uLP",
+        "swap_address": "migaloo1j2dtdu2kjf7l555fkej9cv5cmp79c6g5q8p67gt3yhvm2auzclvsq429y3",
+        "staking_address": "migaloo17m88zthuym6rajrfl8gjnh9j3hzu3zhkmmsrys9qp6y28v58vgus3hwksm",
+        "rewards_tokens": []
+      },
+      {
+        "pool_id": "GUPPY-gASH",
+        "lpOrder": [
+          "GUPPY",
+          "gASH"
+        ],
+        "assetOrder": [
+          "GUPPY",
+          "gASH"
+        ],
+        "displayName": "GUPPY-gASH",
+        "displayLogo1": "https://raw.githubusercontent.com/White-Whale-Defi-Platform/white-whale-frontend/main/public/logos/guppy.png",
+        "displayLogo2": "https://raw.githubusercontent.com/White-Whale-Defi-Platform/white-whale-frontend/main/public/logos/gASH.png",
+        "pool_assets": [
+          {
+            "chain_id": "migaloo-1",
+            "token_address": "factory/migaloo1etlu2h30tjvv8rfa4fwdc43c92f6ul5w9acxzk/uguppy",
+            "symbol": "GUPPY",
+            "name": "Guppy",
+            "decimals": 6,
+            "logoURI": "https://raw.githubusercontent.com/White-Whale-Defi-Platform/white-whale-frontend/main/public/logos/guppy.png",
+            "tags": [
+              "native"
+            ],
+            "native": true,
+            "denom": "factory/migaloo1etlu2h30tjvv8rfa4fwdc43c92f6ul5w9acxzk/uguppy"
+          },
+          {
+            "chain_id": "migaloo-1",
+            "token_address": "factory/migaloo1r9x8fz4alekzr78k42rpmr9unpa7egsldpqeynmwl2nfvzexue9sn8l5rg/gash",
+            "symbol": "gASH",
+            "name": "gASH",
+            "decimals": 6,
+            "logoURI": "https://raw.githubusercontent.com/White-Whale-Defi-Platform/white-whale-frontend/main/public/logos/gASH.png",
+            "tags": [
+              "native"
+            ],
+            "native": true,
+            "denom": "factory/migaloo1r9x8fz4alekzr78k42rpmr9unpa7egsldpqeynmwl2nfvzexue9sn8l5rg/gash"
+          }
+        ],
+        "lp_token": "factory/migaloo1huj5syg78rm3nuslzf9py73ccegcth2lkfpf5pvaq6q68pakldmsahxmfl/uLP",
+        "swap_address": "migaloo1huj5syg78rm3nuslzf9py73ccegcth2lkfpf5pvaq6q68pakldmsahxmfl",
+        "staking_address": "migaloo10knl076uc8sjqsz6k49j94phv5aqqp0v7u8aaqjx6s3pdrmtsmzskjepd6",
+        "rewards_tokens": []
+      },
+      {
+        "pool_id": "ampWHALEt-ampWHALE",
+        "lpOrder": [
+          "ampWHALEt",
+          "ampWHALE"
+        ],
+        "assetOrder": [
+          "ampWHALEt",
+          "ampWHALE"
+        ],
+        "displayName": "ampWHALEt-ampWHALE",
+        "displayLogo1": "https://raw.githubusercontent.com/White-Whale-Defi-Platform/white-whale-frontend/main/public/logos/ampwhalet.svg",
+        "displayLogo2": "https://raw.githubusercontent.com/White-Whale-Defi-Platform/white-whale-frontend/main/public/logos/ampWhale.svg",
+        "pool_assets": [
+          {
+            "chain_id": "phoenix-1",
+            "token_address": "ibc/EA459CE57199098BA5FFDBD3194F498AA78439328A92C7D136F06A5220903DA6",
+            "symbol": "ampWHALEt",
+            "name": "ampWHALEt",
+            "decimals": 6,
+            "logoURI": "https://raw.githubusercontent.com/White-Whale-Defi-Platform/white-whale-frontend/main/public/logos/ampWhalet.svg",
+            "tags": [
+              "native"
+            ],
+            "native": true,
+            "denom": "ibc/EA459CE57199098BA5FFDBD3194F498AA78439328A92C7D136F06A5220903DA6"
+          },
+          {
+            "chain_id": "migaloo-1",
+            "token_address": "factory/migaloo1436kxs0w2es6xlqpp9rd35e3d0cjnw4sv8j3a7483sgks29jqwgshqdky4/ampWHALE",
+            "symbol": "ampWHALE",
+            "name": "ampWHALE",
+            "decimals": 6,
+            "logoURI": "https://raw.githubusercontent.com/White-Whale-Defi-Platform/white-whale-frontend/main/public/logos/ampWhale.svg",
+            "tags": [
+              "native"
+            ],
+            "native": true,
+            "denom": "factory/migaloo1436kxs0w2es6xlqpp9rd35e3d0cjnw4sv8j3a7483sgks29jqwgshqdky4/ampWHALE"
+          }
+        ],
+        "lp_token": "factory/migaloo1ugv3g8lckm70np3u50u5wetnv2dfda073gyazy2v50t5c3wza3xqj5drtk/uLP",
+        "swap_address": "migaloo1ugv3g8lckm70np3u50u5wetnv2dfda073gyazy2v50t5c3wza3xqj5drtk",
+        "staking_address": "",
+        "rewards_tokens": []
+      },
+      {
+        "pool_id": "bWHALEt-bWHALE",
+        "lpOrder": [
+          "bWHALEt",
+          "bWHALE"
+        ],
+        "assetOrder": [
+          "bWHALEt",
+          "bWHALE"
+        ],
+        "displayName": "bWHALEt-bWHALE",
+        "displayLogo1": "https://raw.githubusercontent.com/White-Whale-Defi-Platform/white-whale-frontend/main/public/logos/bwhalet.svg",
+        "displayLogo2": "https://raw.githubusercontent.com/White-Whale-Defi-Platform/white-whale-frontend/main/public/logos/bWHALE.png",
+        "pool_assets": [
+          {
+            "chain_id": "migaloo-1",
+            "token_address": "ibc/E54A0C1E4A2A79FD4F92765F68E38939867C3DA36E2EA6BBB2CE81C43F4C8ADC",
+            "symbol": "bWHALEt",
+            "name": "bWHALEt",
+            "decimals": 6,
+            "logoURI": "https://raw.githubusercontent.com/White-Whale-Defi-Platform/white-whale-frontend/main/public/logos/bwhalet.svg",
+            "tags": [
+              "native"
+            ],
+            "native": true,
+            "denom": "ibc/E54A0C1E4A2A79FD4F92765F68E38939867C3DA36E2EA6BBB2CE81C43F4C8ADC"
+          },
+          {
+            "chain_id": "migaloo-1",
+            "token_address": "factory/migaloo1mf6ptkssddfmxvhdx0ech0k03ktp6kf9yk59renau2gvht3nq2gqdhts4u/boneWhale",
+            "symbol": "bWHALE",
+            "name": "bWHALE",
+            "decimals": 6,
+            "logoURI": "https://raw.githubusercontent.com/White-Whale-Defi-Platform/white-whale-frontend/main/public/logos/bWHALE.png",
+            "tags": [
+              "native"
+            ],
+            "native": true,
+            "denom": "factory/migaloo1mf6ptkssddfmxvhdx0ech0k03ktp6kf9yk59renau2gvht3nq2gqdhts4u/boneWhale"
+          }
+        ],
+        "lp_token": "factory/migaloo1azqqmeg7zcj9vdtqpc65dmr2fkmkf3x6dcyhnau6d6er0w2r3arq470dzj/uLP",
+        "swap_address": "migaloo1azqqmeg7zcj9vdtqpc65dmr2fkmkf3x6dcyhnau6d6er0w2r3arq470dzj",
+        "staking_address": "",
+        "rewards_tokens": []
+      },
+      {
+        "pool_id": "SHD-WHALE",
+        "lpOrder": [
+          "SHD",
+          "WHALE"
+        ],
+        "assetOrder": [
+          "SHD",
+          "WHALE"
+        ],
+        "displayName": "SHD-WHALE",
+        "displayLogo1": "https://raw.githubusercontent.com/White-Whale-Defi-Platform/white-whale-frontend/main/public/logos/shd.svg",
+        "displayLogo2": "https://raw.githubusercontent.com/White-Whale-Defi-Platform/white-whale-frontend/main/public/logos/whale.svg",
+        "pool_assets": [
+          {
+            "id": "shade-protocol",
+            "chain_id": "migaloo-1",
+            "token_address": "ibc/6A171A9A6DBBF5DDB976CD215EAA667641FA8EE35EDC95ACDBF68C810B62F0F5",
+            "symbol": "SHD",
+            "name": "SHD",
+            "decimals": 8,
+            "logoURI": "https://raw.githubusercontent.com/White-Whale-Defi-Platform/white-whale-frontend/main/public/logos/shd.svg",
+            "tags": [
+              "native"
+            ],
+            "native": true,
+            "denom": "ibc/6A171A9A6DBBF5DDB976CD215EAA667641FA8EE35EDC95ACDBF68C810B62F0F5"
+          },
+          {
+            "id": "white-whale",
+            "chain_id": "migaloo-1",
+            "token_address": "uwhale",
+            "symbol": "WHALE",
+            "name": "WHALE",
+            "decimals": 6,
+            "logoURI": "https://raw.githubusercontent.com/White-Whale-Defi-Platform/white-whale-frontend/main/public/logos/whale.svg",
+            "tags": [
+              "native"
+            ],
+            "native": true,
+            "denom": "uwhale"
+          }
+        ],
+        "lp_token": "factory/migaloo1vvv0v0cptqnnltwu5y50uf3aw0ky8jfk7zr8yjqlw0sfwzan6xasmewu40/uLP",
+        "swap_address": "migaloo1vvv0v0cptqnnltwu5y50uf3aw0ky8jfk7zr8yjqlw0sfwzan6xasmewu40",
+        "staking_address": "migaloo12pgljfldvucca4s2v5szlyf7vff4hy45fwfurvna03s4x9kwydlqcpnlzr",
+        "rewards_tokens": []
+      },
+      {
+        "pool_id": "SHARK-WHALE",
+        "lpOrder": [
+          "SHARK",
+          "WHALE"
+        ],
+        "assetOrder": [
+          "SHARK",
+          "WHALE"
+        ],
+        "displayName": "SHARK-WHALE",
+        "displayLogo1": "https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/shark.png",
+        "displayLogo2": "https://raw.githubusercontent.com/White-Whale-Defi-Platform/white-whale-frontend/main/public/logos/whale.svg",
+        "pool_assets": [
+          {
+            "id": "",
+            "chain_id": "migaloo-1",
+            "token_address": "factory/migaloo1eqntnl6tzcj9h86psg4y4h6hh05g2h9nj8e09l/shark",
+            "symbol": "SHARK",
+            "name": "SHARK",
+            "decimals": 6,
+            "logoURI": "https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/shark.png",
+            "tags": [
+              "native"
+            ],
+            "native": true,
+            "denom": "factory/migaloo1eqntnl6tzcj9h86psg4y4h6hh05g2h9nj8e09l/shark"
+          },
+          {
+            "id": "white-whale",
+            "chain_id": "migaloo-1",
+            "token_address": "uwhale",
+            "symbol": "WHALE",
+            "name": "WHALE",
+            "decimals": 6,
+            "logoURI": "https://raw.githubusercontent.com/White-Whale-Defi-Platform/white-whale-frontend/main/public/logos/whale.svg",
+            "tags": [
+              "native"
+            ],
+            "native": true,
+            "denom": "uwhale"
+          }
+        ],
+        "lp_token": "factory/migaloo14emfp5urhu0nnnk5warexg3fdfl8gltru9y3ylzx6cay6utdgpdsyh99r7/uLP",
+        "swap_address": "migaloo14emfp5urhu0nnnk5warexg3fdfl8gltru9y3ylzx6cay6utdgpdsyh99r7",
+        "staking_address": "",
+        "rewards_tokens": []
+      },
+      {
+        "pool_id": "unassigned",
+        "pool_assets": [
+          {
+            "id": "ampluna",
+            "chain_id": "migaloo-1",
+            "token_address": "ibc/05238E98A143496C8AF2B6067BABC84503909ECE9E45FBCBAC2CBA5C889FD82A",
+            "symbol": "ampLUNA",
+            "name": "ampLuna",
+            "decimals": 6,
+            "logoURI": "https://raw.githubusercontent.com/White-Whale-Defi-Platform/white-whale-frontend/main/public/logos/ampLuna.png",
+            "tags": [
+              "native"
+            ],
+            "native": true,
+            "denom": "ibc/05238E98A143496C8AF2B6067BABC84503909ECE9E45FBCBAC2CBA5C889FD82A"
+          },
+          {
+            "id": "bluna",
+            "chain_id": "migaloo-1",
+            "token_address": "ibc/40C29143BF4153B365089E40E437B7AA819672646C45BB0A5F1E10915A0B6708",
+            "symbol": "bLUNA",
+            "name": "bLuna",
+            "decimals": 6,
+            "logoURI": "https://raw.githubusercontent.com/White-Whale-Defi-Platform/white-whale-frontend/main/public/logos/bLuna.png",
+            "tags": [
+              "native"
+            ],
+            "native": true,
+            "denom": "ibc/40C29143BF4153B365089E40E437B7AA819672646C45BB0A5F1E10915A0B6708"
+          },
+          {
+            "id": "musdc",
+            "chain_id": "migaloo-1",
+            "token_address": "migaloo10nucfm2zqgzqmy7y7ls398t58pjt9cwjsvpy88y2nvamtl34rgmqt5em2v",
+            "symbol": "mUSDC",
+            "name": "Ginkou USDC",
+            "decimals": 6,
+            "logoURI": "https://raw.githubusercontent.com/White-Whale-Defi-Platform/white-whale-frontend/main/public/logos/axlUSDC.png",
+            "tags": [],
+            "native": false,
+            "denom": "migaloo10nucfm2zqgzqmy7y7ls398t58pjt9cwjsvpy88y2nvamtl34rgmqt5em2v"
+          },
+          {
+            "id": "usdc-whale-lp",
+            "chain_id": "migaloo-1",
+            "token_address": "factory/migaloo1xv4ql6t6r8zawlqn2tyxqsrvjpmjfm6kvdfvytaueqe3qvcwyr7shtx0hj/uLP",
+            "symbol": "USDC-WHALE-LP",
+            "name": "USDC-WHALE LP",
+            "decimals": 6,
+            "logoURI": "https://raw.githubusercontent.com/White-Whale-Defi-Platform/white-whale-frontend/main/public/logos/whale-usdc-lp.png",
+            "tags": [
+              "native"
+            ],
+            "native": true,
+            "denom": "factory/migaloo1xv4ql6t6r8zawlqn2tyxqsrvjpmjfm6kvdfvytaueqe3qvcwyr7shtx0hj/uLP"
+          },
+          {
+            "id": "whale-wbtc-lp",
+            "chain_id": "migaloo-1",
+            "token_address": "factory/migaloo1axtz4y7jyvdkkrflknv9dcut94xr5k8m6wete4rdrw4fuptk896su44x2z/uLP",
+            "symbol": "WHALE-wBTC-LP",
+            "name": "WHALE-wBTC-LP",
+            "decimals": 6,
+            "logoURI": "https://raw.githubusercontent.com/White-Whale-Defi-Platform/white-whale-frontend/main/public/logos/whale-usdc-lp.png",
+            "tags": [
+              "native"
+            ],
+            "native": true,
+            "denom": "factory/migaloo1axtz4y7jyvdkkrflknv9dcut94xr5k8m6wete4rdrw4fuptk896su44x2z/uLP"
+          }
+        ]
+      }
+    ],
+    "version": {
+      "major": 0,
+      "minor": 1,
+      "patch": 0
+    }
+  }
